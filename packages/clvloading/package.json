@@ -1,0 +1,16 @@
+{
+  "name": "@ftun/clvloading",
+  "version": "1.1.0",
+  "main": "build/index.js",
+  "author": "Equipo Desarrollo Clever MID",
+  "license": "ISC",
+  "description": "Componente Loading",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ftun/clv-components.git",
+    "directory": "packages/clvloading"
+  }
+}

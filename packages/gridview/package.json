@@ -1,0 +1,16 @@
+{
+  "name": "@ftun/gridview",
+  "version": "1.5.0",
+  "main": "build/index.js",
+  "author": "Felipe Tun",
+  "license": "ISC",
+  "description": "Componente GridView",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ftun/clv-components.git",
+    "directory": "packages/gridview"
+  }
+}

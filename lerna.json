@@ -1,0 +1,22 @@
+{
+  "npmClient": "npm",
+  "changelog": {
+    "repo": "@ftun/components",
+    "cacheDir": ".changelog"
+  },
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ],
+      "message": "chore(release): publish",
+      "registry": "https://npm.pkg.github.com"
+    }
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "useWorkspaces": true
+}

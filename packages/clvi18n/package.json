@@ -1,0 +1,21 @@
+{
+  "name": "@ftun/clvi18n",
+  "version": "1.2.8",
+  "main": "build/index.js",
+  "author": "Felipe Tun",
+  "license": "ISC",
+  "description": "Componente clvi18n",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ftun/clv-components.git",
+    "directory": "packages/clvi18n"
+  },
+  "dependencies": {
+    "@ftun/dropdown": "^1.1.6",
+    "@ftun/helpers": "^1.7.4",
+    "react-dom": "^16.12.0"
+  }
+}

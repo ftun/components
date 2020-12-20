@@ -1,0 +1,16 @@
+{
+  "name": "@ftun/comparestrings",
+  "version": "0.0.2",
+  "main": "build/index.js",
+  "author": "Angel Solis",
+  "license": "ISC",
+  "description": "Componente para comparar strings",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ftun/clv-components.git",
+    "directory": "packages/comparestrings"
+  }
+}

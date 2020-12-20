@@ -1,0 +1,46 @@
+{
+  "name": "@ftun/components",
+  "version": "1.0.0",
+  "description": "Multi-Repo",
+  "main": "babel.config.js",
+  "bin": {
+    "components": "getReadme.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftun/components.git"
+  },
+  "keywords": [
+    "reactjs",
+    "nodejs"
+  ],
+  "author": "Felipe Tun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ftun/components/issues"
+  },
+  "homepage": "https://github.com/ftun/components#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-arrow-functions": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-docs": "^6.1.11",
+    "@storybook/addon-knobs": "^6.1.11",
+    "@storybook/react": "^6.1.11",
+    "@storybook/storybook-deployer": "^2.8.7",
+    "babel-loader": "^8.2.2",
+    "lerna": "^3.22.1"
+  }
+}

@@ -1,0 +1,20 @@
+#directories
+/templates
+/public
+/framework
+/..storybook
+
+# html documentacion estatic de los componentes
+/storybook-static
+
+
+#logs
+*.log
+*.lock
+*.DS_Store
+
+#linters
+.jscsrc
+.jshintrc
+.eslintrc*
+package-lock.json
