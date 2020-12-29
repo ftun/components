@@ -7,7 +7,14 @@
     "components": "getReadme.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "lerna exec --parallel -- babel --root-mode upward src -d build --ignore ../packages/**/*.stories.[tj]s --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook",
+    "generate-documentation": "build-storybook -c .storybook",
+    "deploy-storybook": "storybook-to-ghpages",
+    "preinstall": "node bin/preinstall.js",
+    "postinstall": "node bin/postinstall.js",
+    "docmd": "node bin/getReadme.js"
   },
   "repository": {
     "type": "git",

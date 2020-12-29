@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ftun/clv-components.git",
+    "url": "git://github.com/ftun/components.git",
     "directory": "packages/helpers"
   },
   "dependencies": {

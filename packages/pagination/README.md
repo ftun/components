@@ -66,7 +66,7 @@ import Pagination from '@ftun/pagination';
 
 ```
 
-## Integracion con [GridView](https://github.com/ftun/clv-components/packages/134393)
+## Integracion con [GridView](https://github.com/ftun/components/packages/134393)
 
 ```javascript
 
