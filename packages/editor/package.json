@@ -1,0 +1,18 @@
+{
+  "name": "@ftun/editor",
+  "version": "1.2.8",
+  "main": "build/index.js",
+  "author": "Felipe Tun",
+  "license": "ISC",
+  "description": "Componente editor",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ftun/components.git",
+    "directory": "packages/editor"
+  },
+  "dependencies": {
+  }
+}
